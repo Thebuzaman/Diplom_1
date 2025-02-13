@@ -27,6 +27,10 @@ public class IngredientTest {
                 {IngredientType.SAUCE, "cutlet", 100f},
                 {IngredientType.SAUCE, "dinosaur", 200f},
                 {IngredientType.SAUCE, "sausage", 300f},
+                {null, "sausage", 300f},
+                {IngredientType.SAUCE, null, 300f},
+                {IngredientType.SAUCE, "sausage", -30f},
+
         };
     }
 

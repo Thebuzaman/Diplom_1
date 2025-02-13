@@ -18,8 +18,13 @@ public class BunTest {
     public static Object[][] setData() {
         return new Object[][]{
                 {"Флюоресцентная", 80f},
-                {"Краторная", 60f},
+                {"Краторная", 60.5f},
                 {"Spaceman", 70f},
+                {"Булка", 0.0f},
+                {"Булка", -10.0f},
+                {"Булка", null},
+                {"", 50.0f},
+                {null, 50.0f}
         };
     }
 
